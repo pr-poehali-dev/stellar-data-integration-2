@@ -8,6 +8,7 @@ import { SafetySection } from "@/components/safety-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
+import { PricingSection } from "@/components/pricing-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ApplicationModal } from "@/components/application-modal"
@@ -29,6 +30,7 @@ export default function Index() {
         <section id="safety">
           <SafetySection />
         </section>
+        <PricingSection onJoinClick={() => setModalOpen(true)} />
         <TestimonialsSection />
         <section id="faq">
           <FAQSection />
