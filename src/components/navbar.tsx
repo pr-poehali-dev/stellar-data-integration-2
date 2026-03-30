@@ -2,7 +2,11 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
-export function Navbar() {
+interface NavbarProps {
+  onJoinClick?: () => void
+}
+
+export function Navbar({ onJoinClick }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -36,7 +40,7 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Вступить в клуб</Button>
+            <Button onClick={onJoinClick} className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Вступить в клуб</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -76,7 +80,7 @@ export function Navbar() {
                 Вопросы
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
+                <Button onClick={onJoinClick} className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
                   Вступить в клуб
                 </Button>
               </div>
