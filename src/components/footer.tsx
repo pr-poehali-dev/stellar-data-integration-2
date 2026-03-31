@@ -7,9 +7,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              КЛУБ<span className="text-red-500"> СИЛА</span>
-            </h2>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="https://cdn.poehali.dev/projects/9bff6a1c-d424-4f9a-b610-2073412bedb3/files/4cacb090-0f54-4956-b1ff-7a7a33d80c68.jpg"
+                alt="Логотип СИЛА"
+                className="w-12 h-12 rounded-full object-cover ring-1 ring-red-500/40"
+              />
+              <h2 className="font-orbitron text-2xl font-bold text-white">
+                КЛУБ<span className="text-red-500"> СИЛА</span>
+              </h2>
+            </div>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Сообщество людей, которые выбрали жить по-настоящему. Психология, йога, здоровье и эзотерика — всё для раскрытия твоего потенциала.
             </p>
