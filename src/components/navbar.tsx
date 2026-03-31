@@ -16,7 +16,7 @@ export function Navbar({ onJoinClick }: NavbarProps) {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="font-orbitron text-xl font-bold text-white">
-              КЛУБ<span className="text-red-500"> СИЛА</span>
+              клуб саморазвития и поддержки<span className="text-red-500"> СИЛА</span>
             </h1>
           </div>
 
