@@ -21,15 +21,15 @@ export default function Index() {
       <Navbar onJoinClick={() => setModalOpen(true)} />
       <main>
         <Hero3D />
+        <section id="safety">
+          <SafetySection />
+        </section>
         <FeaturesSection />
         <section id="technology">
           <TechnologySection />
         </section>
         <ApplicationsTimeline />
         <AboutSection />
-        <section id="safety">
-          <SafetySection />
-        </section>
         <PricingSection onJoinClick={() => setModalOpen(true)} />
         <TestimonialsSection />
         <section id="faq">
