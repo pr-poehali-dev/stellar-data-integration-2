@@ -37,10 +37,10 @@ export function ApplicationModal({ open, onOpenChange }: ApplicationModalProps) 
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="bg-zinc-950 border border-red-500/30 text-white max-w-md">
+      <DialogContent className="bg-zinc-950 border border-yellow-600/30 text-white max-w-md">
         <DialogHeader>
           <DialogTitle className="font-orbitron text-2xl text-white text-center">
-            КЛУБ <span className="text-red-500">СИЛА</span>
+            КЛУБ <span className="gold-gradient-text">СИЛА</span>
           </DialogTitle>
         </DialogHeader>
 
@@ -60,7 +60,7 @@ export function ApplicationModal({ open, onOpenChange }: ApplicationModalProps) 
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                className="bg-zinc-900 border-zinc-700 focus:border-red-500 text-white placeholder:text-gray-600"
+                className="bg-zinc-900 border-zinc-700 focus:border-yellow-500 text-white placeholder:text-gray-600"
               />
             </div>
 
@@ -74,14 +74,14 @@ export function ApplicationModal({ open, onOpenChange }: ApplicationModalProps) 
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 required
-                className="bg-zinc-900 border-zinc-700 focus:border-red-500 text-white placeholder:text-gray-600"
+                className="bg-zinc-900 border-zinc-700 focus:border-yellow-500 text-white placeholder:text-gray-600"
               />
             </div>
 
             <Button
               type="submit"
               disabled={loading}
-              className="w-full bg-red-500 hover:bg-red-600 text-white font-geist text-base py-5 border-0"
+              className="w-full bg-yellow-600 hover:bg-yellow-500 text-black font-geist text-base py-5 border-0 font-semibold"
             >
               {loading ? (
                 <Icon name="Loader2" size={20} className="animate-spin" />
@@ -96,8 +96,8 @@ export function ApplicationModal({ open, onOpenChange }: ApplicationModalProps) 
           </form>
         ) : (
           <div className="flex flex-col items-center gap-4 py-6">
-            <div className="w-16 h-16 rounded-full bg-red-500/20 flex items-center justify-center">
-              <Icon name="Check" size={32} className="text-red-500" />
+            <div className="w-16 h-16 rounded-full bg-yellow-500/20 flex items-center justify-center">
+              <Icon name="Check" size={32} className="text-yellow-500" />
             </div>
             <h3 className="text-xl font-bold text-white font-orbitron">Заявка принята!</h3>
             <p className="text-gray-400 text-center text-sm leading-relaxed">
@@ -105,7 +105,7 @@ export function ApplicationModal({ open, onOpenChange }: ApplicationModalProps) 
             </p>
             <Button
               onClick={() => handleClose(false)}
-              className="bg-red-500 hover:bg-red-600 text-white border-0 mt-2"
+              className="bg-yellow-600 hover:bg-yellow-500 text-black border-0 mt-2 font-semibold"
             >
               Отлично!
             </Button>

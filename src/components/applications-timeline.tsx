@@ -11,16 +11,16 @@ export function ApplicationsTimeline() {
             что тебя сдерживает, найдёшь свои истинные ценности и поймёшь, чего на самом деле хочешь от жизни.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Индивидуальные сессии с психологом
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Проработка страхов и ограничений
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Поиск своих истинных целей и смыслов
             </div>
           </div>
@@ -36,16 +36,16 @@ export function ApplicationsTimeline() {
             техники и методы управления энергией под руководством опытных инструкторов каждую неделю.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Еженедельные занятия йогой и медитацией
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Дыхательные практики и работа с телом
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Эзотерические техники и духовные практики
             </div>
           </div>
@@ -61,16 +61,16 @@ export function ApplicationsTimeline() {
             в отношениях. Ты выходишь на новый уровень — и живёшь жизнью, которую сам выбрал.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Раскрытие внутреннего потенциала и силы
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Гармония тела, разума и духа
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-yellow-500 text-sm">
+              <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
               Жизнь по-настоящему — твоя, осознанная
             </div>
           </div>
